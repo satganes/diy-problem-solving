@@ -12,7 +12,7 @@ package com.interview.technical.strings;
  *      pale, ple -> true
  *      pales, pale -> true
  *      pale, bale -> true
- *      pale, bake -> false
+ *      pale, bake -> false 
  * 
  * </pre>
  * 

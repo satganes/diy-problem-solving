@@ -1,4 +1,4 @@
-package com.interview.technical.strings;
+package com.interview.technical.crackingthecodinginterview;
 
 /**
  * Write a method to replace all spaces in a string with '%20'. You may assume that the string has

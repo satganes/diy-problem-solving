@@ -1,4 +1,4 @@
-package com.interview.technical.strings;
+package com.interview.technical.crackingthecodinginterview;
 
 /**
  * Implement a method to perform basic string compression using the counts of repeated characters.

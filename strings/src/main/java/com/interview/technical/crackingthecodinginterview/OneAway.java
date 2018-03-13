@@ -1,4 +1,4 @@
-package com.interview.technical.strings;
+package com.interview.technical.crackingthecodinginterview;
 
 /**
  * 

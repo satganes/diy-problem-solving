@@ -1,4 +1,4 @@
-package com.interview.technical.strings;
+package com.interview.technical.crackingthecodinginterview;
 
 /**
  * We are given an array (or string), the task is to reverse the array.

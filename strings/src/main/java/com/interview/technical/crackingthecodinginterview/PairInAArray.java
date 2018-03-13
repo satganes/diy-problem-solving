@@ -1,4 +1,4 @@
-package com.interview.technical.strings;
+package com.interview.technical.crackingthecodinginterview;
 
 /**
  * Given an array that is sorted and then rotated around an unknown point. Find if array has a pair

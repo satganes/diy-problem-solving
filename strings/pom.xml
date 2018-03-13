@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.interview.technical</groupId>
-  <artifactId>strings</artifactId>
+  <artifactId>crackingthecodinginterview</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 

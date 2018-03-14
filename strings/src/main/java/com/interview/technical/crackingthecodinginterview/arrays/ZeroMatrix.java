@@ -1,4 +1,4 @@
-package com.interview.technical.crackingthecodinginterview;
+package com.interview.technical.crackingthecodinginterview.arrays;
 
 /**
  * Write an algorithm such that if an element in an MxN matrix is 0, its entire

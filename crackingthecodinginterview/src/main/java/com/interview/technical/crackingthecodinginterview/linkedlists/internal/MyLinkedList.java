@@ -27,4 +27,16 @@ public class MyLinkedList
         fastPtr.next = slowPtr;
     }
 
+    public String print()
+    {
+        Node ptr = head;
+        StringBuilder builder = new StringBuilder();
+        while (ptr != null)
+        {
+            builder.append(ptr.data);
+            builder.append(" -> ");
+            ptr = ptr.next;
+        }
+        return builder.toString();
+    }
 }

@@ -64,5 +64,8 @@ public class BinaryGap
     {
         System.out.println(BinaryGap.solution(51712));
         System.out.println(BinaryGap.solution(4));
+        System.out.println(BinaryGap.solution(6291457));
+        System.out.println(BinaryGap.solution(1376796946));
+        System.out.println(BinaryGap.solution(1610612737));
     }
 }

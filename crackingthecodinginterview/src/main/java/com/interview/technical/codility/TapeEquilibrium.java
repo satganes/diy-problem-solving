@@ -1,7 +1,5 @@
 package com.interview.technical.codility;
 
-import java.util.Arrays;
-
 /**
  * 
  * A non-empty zero-indexed array A consisting of N integers is given. Array A
@@ -78,6 +76,7 @@ public class TapeEquilibrium
         {
             if (Math.abs(sumleft - sumright) < ans)
             {
+                
                 ans = Math.abs(sumleft - sumright);
             }
             sumleft += A[P];
@@ -99,7 +98,6 @@ public class TapeEquilibrium
             {
                 minDiff = Math.abs(A[i] - ((A[A.length - 1]) - A[i]));
             }
-            ;
 
         }
         return minDiff;
@@ -109,11 +107,13 @@ public class TapeEquilibrium
     {
         int[] input = { -1000, 1000 };
         System.out.println(TapeEquilibrium.solution1(input));
-        int[] input1 = { 5, 6, 2, 4, 1 };
-        System.out.println(TapeEquilibrium.solution1(input1));
-        int[] input2 = { -10, -20, -30, -40, 100 };
-        System.out.println(TapeEquilibrium.solution1(input2));
-        int[] input3 = { 3, 1, 2, 4, 3 };
-        System.out.println(TapeEquilibrium.solution1(input3));
+        int[] input11 = { -1000, 1000 };
+        System.out.println(TapeEquilibrium.solution(input11));
+//        int[] input1 = { 5, 6, 2, 4, 1 };
+//        System.out.println(TapeEquilibrium.solution1(input1));
+//        int[] input2 = { -10, -20, -30, -40, 100 };
+//        System.out.println(TapeEquilibrium.solution1(input2));
+//        int[] input3 = { 3, 1, 2, 4, 3 };
+//        System.out.println(TapeEquilibrium.solution1(input3));
     }
 }
